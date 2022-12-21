@@ -13,7 +13,7 @@
     --second-bg-color: #202020;
     --text-color: #fff;
     --second-color: #ccc;
-    --main-color: yellow;
+    --main-color: #ffff00;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -94,4 +94,93 @@ section{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+
+
+.one{
+    display: inline-block;
+    margin-right: 1px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 25px;
+    background-color: var(--main-color);
+    color: black;
+}
+
+.home-text h1{
+    font-size: var(--big-font);
+    font-weight: 700;
+    list-style: 1.1;
+    margin: 0 0 8px;
+    margin-bottom: 25px;
+}
+
+.two{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-text h3{
+    font-size: 1.32rem;
+    font-weight: 700;
+    list-style: 1.1;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.home-text p{
+    color: var(--second-color);
+    font-size: var(--p-font);
+}
+
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    border-radius: 9px;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+    margin-top: 40px;
+}
+
+.btn:hover{
+    transform: scale(0.9);
+}
+
+.btn2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600px;
+    color: var(--text-color);
+    margin-left: 35px;
+    margin-top: 40px;
+    padding: 3px 3px;
+    background-color: var(--main-color);
+    border-radius: 9px;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+    margin-top: 40px;
+}
+
+.btn2:hover{
+    transform: scale(0.9);
 }
